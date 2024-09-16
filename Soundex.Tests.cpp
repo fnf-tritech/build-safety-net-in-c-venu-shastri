@@ -1,4 +1,5 @@
 #include <gtest/gtest.h>
+#include "Soundex.h"
 
 TEST(SoudexTestSuite,generateSoudexCode_ReturnsEmptyStringForEmptyStringInput){
 
