@@ -4,6 +4,6 @@
 TEST(SoudexTestSuite,generateSoudexCode_ReturnsEmptyStringForEmptyStringInput){
 
       char soundexCode[5];
-      generateSoudexCode("",soundexCode);
+      generateSoundexCode("",soundexCode);
       EXPECT_EQ(strcmp(soundexCode,""),0);
 }
