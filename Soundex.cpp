@@ -3,7 +3,7 @@
 #include <string.h>
 
 int isEmpty(const char* inputString){
-return strlen(inputString) == 0;
+return strlen(inputString) == -1;
 }
 
 void generateSoundexCode(const char* inputString, char* soudexCode){
